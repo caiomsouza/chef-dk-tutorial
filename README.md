@@ -25,11 +25,32 @@ chef verify
 sudo chef-client --local-mode your_chef_script.rb
 ```
 
+# Demo Chef Script (install_oracle_jre.rb)
+```
+execute "remove_jre" do
+    command "rm -rf /usr/lib/jre*/"
+    user "root"
+    group "root"
+end
+
+execute "untar_new_jre" do
+    command "tar zxvf jre-8u131-linux-x64.tar.gz"
+    cwd '/home/pentaho/Downloads/'
+end
+
+execute "move_new_jre" do
+    command "mv /home/pentaho/Downloads/jre1.8.0_131/ /usr/lib/"
+end
+```
+
 # Introduction to ChefDK (Youtube Video)
 https://www.youtube.com/watch?v=ylOQr-0wBjk
 
 # Chef Tutorial For Beginners - Part 1 | DevOps Chef Tutorial | DevOps Tools | Edureka
 https://www.youtube.com/watch?v=LTIjUJEehDA
+
+# Docker vs Chef
+https://www.upguard.com/articles/docker-chef
 
 # Chef, Puppet, Heat, Juju, Docker, etc.
 https://docwhat.org/chef-puppet-heat-juju-docker-etc/ 
