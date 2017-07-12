@@ -20,7 +20,10 @@ sudo dpkg -i chef_13.2.20-1_amd64.deb
 sudo dpkg -i chefdk_2.0.26-1_amd64.deb
 chef verify
 ```
-
+# Run your chef script
+```
+sudo chef-client --local-mode your_chef_script.rb
+```
 
 # Introduction to ChefDK (Youtube Video)
 https://www.youtube.com/watch?v=ylOQr-0wBjk
