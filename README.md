@@ -1,3 +1,12 @@
+# Chef
+https://www.chef.io/<BR>
+https://en.wikipedia.org/wiki/Chef_(software)<BR>
+
+Chef is both the name of a company and the name of a configuration management tool written in Ruby and Erlang. It uses a pure-Ruby, domain-specific language (DSL) for writing system configuration "recipes". Chef is used to streamline the task of configuring and maintaining a company's servers, and can integrate with cloud-based platforms such as Internap, Amazon EC2, Google Cloud Platform, OpenStack, SoftLayer, Microsoft Azure and Rackspace to automatically provision and configure new machines. Chef contains solutions for both small and large scale systems, with features and pricing for the respective ranges.
+
+# Comparison of open-source configuration management software
+https://en.wikipedia.org/wiki/Comparison_of_open-source_configuration_management_software
+
 # chef-dk-tutorial
 Chef DK Tutorial
 
