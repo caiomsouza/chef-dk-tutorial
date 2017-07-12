@@ -84,4 +84,6 @@ https://www.quora.com/What-is-difference-between-docker-puppet-chef-and-vagrant
 
 # When should I use Docker, Chef, Puppet, Heat, Juju, Docker or Ansible? What is the recommendation, why and when?
 
+# Ansible
+http://docs.ansible.com/ansible/intro.html
 
